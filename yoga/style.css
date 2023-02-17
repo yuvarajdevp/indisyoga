@@ -1,0 +1,422 @@
+* {
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+
+:root {
+   --orange: #EE7F1B;
+   --grey: #797070;
+   --black: #000000;
+   --brown: #6B0505;
+   --white: #ffffff;
+
+}
+html {
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+ }
+body {
+   font-family: 'gilroy', sans-serif;
+font-family: 'Montserrat', sans-serif;
+scroll-behavior: smooth;
+overflow-x: hidden;
+
+}
+
+*:focus {
+   outline: 0!important;
+ }
+.form-contain {
+   width: 100%;
+   z-index: 999;
+   background: #ffffff!important;   
+   border: 1px solid #D7D7D7;
+   box-shadow: inset -17.473px 7.41683px 18.9819px rgba(189, 189, 189, 0.11), inset 17.473px -7.41683px 18.9819px rgba(240, 240, 240, 0.03);
+   border-radius: 10px;
+
+}
+
+.form-label {
+   padding-left: 10%;
+   padding-top: 10px;
+}
+
+.form-control {
+   width: 80% !important;
+   border-left-width: 0px;
+   border-right-width: 0px;
+   border-top-width: 0px;
+   font-family: 'Montserrat', sans-serif;
+   margin: auto;
+}
+.form-control2 {
+   width: 80% !important;
+   border-left-width: 0px;
+   border-right-width: 0px;
+   border-top-width: 0px;
+   font-family: 'Montserrat', sans-serif;
+}
+.form-btn {
+   width: 50%;
+   height: 54.43px;
+   color: #ffffff;
+   text-align: center;
+   background: #6B0505;
+   border-radius: 8px;
+
+}
+.bookcls{
+   font-family: 'gilroy', sans-serif;
+   font-style: normal;
+font-weight: 700;
+font-size: 28px;
+color: var(--orange);
+line-height: 34px;
+}
+.form-label{
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: var(--black);
+}
+.yoga-control {
+
+   font-family: 'gilroy', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.03em;
+
+
+
+   color: var(--orange);
+}
+
+.yoga-content {
+
+   font-family: 'gilroy', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.03em;
+
+   color: var(--grey);
+}
+
+.about-content {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+
+   letter-spacing: 0.03em;
+   font-family: 'gilroy', sans-serif;
+   color: var(--black);
+}
+
+.about-content2 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 36px;
+   letter-spacing: 0.03em;
+   font-family: 'gilroy', sans-serif;
+   color: var(--brown);
+}
+
+.about-desc {
+   font-family: 'gilroy', sans-serif;
+   color: var(--grey);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0.03em;
+}
+
+.practice-head {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: var(--orange);
+   font-family: 'gilroy', sans-serif;
+}
+
+.practice-desc {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   padding: 10px 0px;
+   line-height: 27px;
+   color: var(--grey);
+padding: 1% 22%;
+   text-align: center;
+   letter-spacing: 0.03em;
+   font-family: 'gilroy', sans-serif;
+}
+.yogapose::-webkit-scrollbar{
+overflow-x: hidden!important;
+overflow-y: scroll!important;
+display: none;
+
+}
+
+.yogatype-title {
+   font-style: normal;
+   padding: 25px 0px 15px 0px;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: var(--brown);
+   font-family: 'gilroy', sans-serif;
+}
+
+.yogatype-desc {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 25px;
+   /* or 147% */
+   font-family: 'gilroy', sans-serif;
+   color: var(--grey);
+
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.yogaBookNow {
+   font-family: 'gilroy', sans-serif;
+   background: var(--brown);
+   border-radius: 8px;
+   padding: 3% 10%;
+   border: none;
+   color: var(--white);
+}
+
+.yogaBenf-title1 {
+   font-style: normal;
+   font-weight: 700;
+   font-family: 'gilroy', sans-serif;
+   font-size: 24px;
+   line-height: 29px;
+   /* identical to box height */
+   color: var(--orange);
+   text-align: center;
+   letter-spacing: 0.03em;
+
+}
+
+.yogaBenf-title2 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   font-family: 'gilroy', sans-serif;
+   line-height: 44px;
+   /* identical to box height */
+   color: var(--black);
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.yogaBenf-desc {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   padding: 1% 16%;
+   color: var(--grey);
+   text-align: center;
+   letter-spacing: 0.03em;
+   font-family: 'gilroy', sans-serif;
+}
+
+
+
+.benefit4{
+   font-family: 'gilroy', sans-serif;
+   font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: var(--black);
+
+letter-spacing: 0.03em;
+}
+.btn-Subscription {
+   background-color: var(--brown);
+   color: var(--white);
+   height: 40px;
+   padding: 3PX 20px;
+   border-radius: 5PX;
+   border: none;
+}
+
+.form-email {
+   width: 30%;
+}
+
+#footer {
+   background: #FFEDD6;
+   padding: 0 0 30px 0;
+   color: #fff;
+   font-size: 14px
+}
+
+#footer .footer-newsletter {
+   padding: 50px 0;
+   /* background: #404040 */
+}
+
+#footer .footer-newsletter h4 {
+   font-size: 24px;
+   margin: 0 0 20px 0;
+   padding: 0;
+   line-height: 1;
+   font-weight: 600
+}
+
+#footer .footer-newsletter form {
+   margin-top: 30px;
+   background: #fff;
+   padding: 6px 10px;
+   position: relative;
+   border-radius: 10px
+}
+
+#footer .footer-newsletter form input[type="email"] {
+   border: 0;
+   padding: 8px;
+   width: calc(100% - 140px)
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   border: 0;
+   background: none;
+   font-size: 16px;
+   padding: 0 30px;
+   margin: 3px;
+   background: var(--brown);
+   color: #fff;
+   transition: 0.3s;
+   border-radius: 10px
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+   background: #e6573f;
+}
+
+
+
+
+ul.ks-cboxtags {
+   list-style: none;
+   padding: 5px;
+}
+ul.ks-cboxtags li{
+ display: inline;
+}
+ul.ks-cboxtags li label{
+   display: inline-block;
+   background-color: rgba(255, 255, 255, .9);
+   border: 2px solid rgba(139, 139, 139, .3);
+   color: #adadad;
+   border-radius: 25px;
+   white-space: nowrap;
+   margin: 8px 10px;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   -webkit-tap-highlight-color: transparent;
+   transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+   padding: 8px 12px;
+   cursor: pointer;
+}
+
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+   border: 2px solid var(--orange);
+   background-color: var(--orange);
+   color: #fff;
+   transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+ display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+ position: absolute;
+ opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+ border: 2px solid var(--white);;
+}
+.card{
+   border: none!important;
+ margin: 10px;
+}
+.slick-prev:before, .slick-next:before {
+   color: grey!important;
+}
+.card-title{
+   font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+
+color: #EE7F1B;
+}
+.card-text{
+   font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+font-family: 'gilroy', sans-serif;
+color: #797070;
+}
+.card-text2{
+   font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 12px;
+/* or 138% */
+font-family: 'gilroy', sans-serif;
+
+color: #000000;
+}
+.start-50 {
+   left: 14%!important;
+}
+.top-50 {
+   top: 12%!important;
+}
+.card {
+   margin: 0px!important;
+}
+.form-label{
+width: 95%;
+}
